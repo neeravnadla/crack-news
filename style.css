@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,300;0,500;0,600;1,600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  margin: 0px 100px;
+  background-color: #000;
+  color: #eee;
+  letter-spacing: 0.5px;
+  /* Hide scrollbar for IE, Edge and Firefox */
+}
+
+body .nav {
+  padding: 5px 0;
+}
+
+body .nav .logo {
+  text-transform: capitalize;
+  font-size: 1.2em;
+  font-weight: 300;
+  padding: 10px 0;
+}
+
+@-webkit-keyframes rot {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+}
+
+@keyframes rot {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+}
+
+body .nav .logo #s1 {
+  width: 5px;
+  display: inline;
+  -webkit-animation-name: rot;
+          animation-name: rot;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+body .channels::-webkit-scrollbar {
+  display: none;
+}
+
+body .channels {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+body .channels {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  overflow-x: scroll;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+body .channels button {
+  margin: 0 5px;
+  padding: 0px;
+  background-color: transparent;
+  border: transparent;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+}
+
+body .channels button img {
+  max-width: 50px;
+  border-radius: 10px;
+}
+
+body .channels .add {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #ffffffb3;
+  border-radius: 10px;
+  opacity: 0.5;
+}
+
+body .channels .off {
+  opacity: 0.3;
+}
+
+body .channels .on {
+  opacity: 1;
+}
+
+body .feed {
+  margin-top: 20px;
+}
+
+body .feed .card {
+  margin: 40px 0px;
+}
+
+body .feed .cardstamp {
+  color: #ddd;
+  font-size: 0.8em;
+}
+
+body .feed .cardtitle {
+  font-size: 1.4em;
+  font-weight: 600;
+  padding: 10px 0;
+  color: #ddd;
+}
+
+body .feed .cardcontent {
+  font-size: 1em;
+  font-weight: 500;
+  color: #aaa;
+  line-height: 1.6;
+}
+
+body .feed .cardcontent a {
+  color: #eee;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    margin: 0 20px;
+    font-size: 14px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
