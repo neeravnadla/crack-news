@@ -1,4 +1,4 @@
-import {buttons, filter, show} from  "/component.js";
+import {buttons, filter, show} from  "./component.js";
 
 
 
