@@ -143,7 +143,8 @@ body .filter {
   overflow-x: scroll;
 }
 
-body .filter .filtertag-on, body .filter .filtertag-off {
+body .filter .filtertag-on,
+body .filter .filtertag-off {
   color: #888;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -165,7 +166,8 @@ body .filter .filtertag-on, body .filter .filtertag-off {
   border-radius: 50px;
 }
 
-body .filter .filtertag-on:hover, body .filter .filtertag-off:hover {
+body .filter .filtertag-on:hover,
+body .filter .filtertag-off:hover {
   background-color: #222;
 }
 
@@ -215,6 +217,9 @@ body .feed .cardcontent a {
 @media screen and (max-width: 768px) {
   body {
     margin: 0 20px;
+  }
+  body .feed {
+    width: 100%;
   }
 }
 /*# sourceMappingURL=style.css.map */

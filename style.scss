@@ -14,7 +14,7 @@ body {
   background-color: #000;
   color: #eee;
   letter-spacing: 0.5px;
-text-transform: capitalize;
+  text-transform: capitalize;
   // top nav (logo)
 
   .nav {
@@ -32,8 +32,6 @@ text-transform: capitalize;
         to {
           transform: rotate(45deg);
         }
-
-         
       }
 
       #s1 {
@@ -45,11 +43,11 @@ text-transform: capitalize;
         animation-iteration-count: infinite;
       }
 
-       #designby{
-            font-weight: 500;
-            font-size: 0.6em;
-            text-transform: lowercase;
-          }
+      #designby {
+        font-weight: 500;
+        font-size: 0.6em;
+        text-transform: lowercase;
+      }
     }
   }
 
@@ -74,7 +72,6 @@ text-transform: capitalize;
     flex-wrap: nowrap;
 
     button {
-      
       cursor: pointer;
       margin: 0 5px;
       padding: 0px;
@@ -109,7 +106,6 @@ text-transform: capitalize;
   // filters
 
   .filter {
-    
     display: flex;
     flex-wrap: nowrap;
     //  border-top: 1px solid #333;
@@ -117,19 +113,18 @@ text-transform: capitalize;
     column-gap: 10px;
     font-size: 1em;
     overflow-x: scroll;
-    .filtertag-on, .filtertag-off {
+    .filtertag-on,
+    .filtertag-off {
       color: #888;
       display: flex;
       justify-content: center;
       align-items: center;
       text-align: center;
       flex-wrap: nowrap;
-      
-     
-    
+
       cursor: pointer;
-font-size: 0.8em;
-font-weight: 600;
+      font-size: 0.8em;
+      font-weight: 600;
       // background-color: #111;
       padding: 8px 15px;
 
@@ -140,9 +135,9 @@ font-weight: 600;
       }
     }
     .filtertag-on {
- background-color: #ccc;
- color: #111;
-  &:hover {
+      background-color: #ccc;
+      color: #111;
+      &:hover {
         background-color: #ccc;
       }
     }
@@ -151,8 +146,8 @@ font-weight: 600;
   // main feed and card
 
   .feed {
-   width:70% ;
-margin-top: 1.5em;
+    width: 70%;
+    margin-top: 1.5em;
     .card {
       margin-bottom: 2em;
     }
@@ -184,6 +179,8 @@ margin-top: 1.5em;
 @media screen and (max-width: 768px) {
   body {
     margin: 0 20px;
-    
+    .feed {
+      width: 100%;
+    }
   }
 }
