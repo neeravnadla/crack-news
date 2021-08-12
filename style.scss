@@ -8,20 +8,21 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   margin: 0px 100px;
+
   background-color: #000;
   color: #eee;
   letter-spacing: 0.5px;
-
+text-transform: capitalize;
   // top nav (logo)
 
   .nav {
     padding: 5px 0;
     .logo {
-      text-transform: capitalize;
+      text-transform: uppercase;
       font-size: 1.2em;
-      font-weight: 300;
+      font-weight: 600;
       padding: 10px 0;
 
       @keyframes rot {
@@ -31,6 +32,8 @@ body {
         to {
           transform: rotate(45deg);
         }
+
+         
       }
 
       #s1 {
@@ -41,17 +44,25 @@ body {
         //animation-delay: 2s;
         animation-iteration-count: infinite;
       }
+
+       #designby{
+            font-weight: 500;
+            font-size: 0.6em;
+            text-transform: lowercase;
+          }
     }
   }
 
   //channel button
 
-  .channels::-webkit-scrollbar {
+  .channels,
+  .filter::-webkit-scrollbar {
     display: none;
   }
 
   /* Hide scrollbar for IE, Edge and Firefox */
-  .channels {
+  .channels,
+  .filter {
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
   }
@@ -63,6 +74,8 @@ body {
     flex-wrap: nowrap;
 
     button {
+      
+      cursor: pointer;
       margin: 0 5px;
       padding: 0px;
       background-color: transparent;
@@ -89,19 +102,59 @@ body {
       opacity: 0.3;
     }
     .on {
-      opacity: 1;
+      opacity: 0.8;
+    }
+  }
+
+  // filters
+
+  .filter {
+    
+    display: flex;
+    flex-wrap: nowrap;
+    //  border-top: 1px solid #333;
+    margin-top: 10px;
+    column-gap: 10px;
+    font-size: 1em;
+    overflow-x: scroll;
+    .filtertag-on, .filtertag-off {
+      color: #888;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      flex-wrap: nowrap;
+      
+     
+    
+      cursor: pointer;
+font-size: 0.8em;
+font-weight: 600;
+      // background-color: #111;
+      padding: 8px 15px;
+
+      background-color: #111;
+      border-radius: 50px;
+      &:hover {
+        background-color: #222;
+      }
+    }
+    .filtertag-on {
+ background-color: #ccc;
+ color: #111;
+  &:hover {
+        background-color: #ccc;
+      }
     }
   }
 
   // main feed and card
 
   .feed {
-    margin-top: 20px;
-
-    //  width: 50%;
-
+   width:70% ;
+margin-top: 1.5em;
     .card {
-      margin: 40px 0px;
+      margin-bottom: 2em;
     }
     .cardstamp {
       color: #ddd;
@@ -128,9 +181,9 @@ body {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   body {
     margin: 0 20px;
-    font-size: 14px;
+    
   }
 }
