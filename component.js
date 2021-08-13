@@ -15,7 +15,8 @@ export function buttons (){
                 
                 var img = document.createElement("img");
                 img.src = "./img/"+channellist[i].publisher.replace(/ /g,"")+".png" ;
-                img.alt= channellist[i].publisher;     
+                img.alt= channellist[i].publisher; 
+                
                 button.appendChild(img);
                 document.querySelector(".channels").appendChild(button);
     }
@@ -105,6 +106,7 @@ let filt = subcat.replace(/ /g,"").toLowerCase();
              //   cardcontent.innerHTML = data.items[t].content.slice(0, 300) ;
                 var dlink = document.createElement("a");
                 dlink.href = data.items[t].link;
+                  dlink.target="_blank";  
                 dlink.innerHTML = "Read More";
                 
                 cardcontent.appendChild(textnode);
