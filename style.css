@@ -107,21 +107,6 @@ body .channels button img {
   border-radius: 10px;
 }
 
-body .channels .add {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  border: 1px solid #ffffffb3;
-  border-radius: 10px;
-  opacity: 0.5;
-}
-
 body .channels .off {
   opacity: 0.3;
 }

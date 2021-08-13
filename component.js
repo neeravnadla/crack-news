@@ -19,13 +19,7 @@ export function buttons (){
                 button.appendChild(img);
                 document.querySelector(".channels").appendChild(button);
     }
-                var addbutton = document.createElement("button");             
-                addbutton.className = "add";          
-                var img = document.createElement("img");
-                img.src = "./img/add.png" ;
-                img.alt= "Add Channel";         
-                addbutton.appendChild(img);
-                document.querySelector(".channels").appendChild(addbutton);     
+                
 }
 
 
