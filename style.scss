@@ -53,7 +53,7 @@ body {
 
   //channel button
 
-  .channels,
+  .channels::-webkit-scrollbar,
   .filter::-webkit-scrollbar {
     display: none;
   }
