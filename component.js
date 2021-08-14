@@ -102,7 +102,7 @@ let filt = subcat.replace(/ /g,"").toLowerCase();
                 // content
                 var cardcontent = document.createElement("div");
                 cardcontent.className = "cardcontent";
-                var textnode = document.createTextNode(strip(data.items[t].content).slice(0, 300) +"...");
+                var textnode = document.createTextNode(strip(data.items[t].content).slice(0, 500) +"...");
              //   cardcontent.innerHTML = data.items[t].content.slice(0, 300) ;
                 var dlink = document.createElement("a");
                 dlink.href = data.items[t].link;

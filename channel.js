@@ -204,6 +204,198 @@ export const channel = {
                
             }
           },
+          aljazeera: {
+
+            publisher: "aljazeera",
+            content: {
+
+                home :{
+                    title: "home",
+                    link: "https://www.aljazeera.com/xml/rss/all.xml"
+                }        
+                
+            }
+
+          },
+          
+          vox: {
+
+            publisher: "vox",
+            content: {
+
+                home :{
+                    title: "home",
+                    link: "https://www.vox.com/rss/index.xml"
+                }        
+                
+            }
+
+          },
+          vice: {
+
+            publisher: "vice",
+            content: {
+
+                home :{
+                    title: "home",
+                    link: "https://www.vice.com/en/rss?locale=en_us"
+                }        
+                
+            }
+
+          },
+
+          variety: {
+
+            publisher: "variety",
+            content: {
+
+                home :{
+                    title: "home",
+                    link: "http://feeds.feedburner.com/variety/headlines"
+                }
+              
+            }
+
+          },
+          espn: {
+
+            publisher: "espn",
+            content: {
+
+                home :{
+                    title: "home",
+                    link: "https://www.espn.com/espn/rss/news"
+                },
+              soccer :{
+                    title: "soccer",
+                    link: "https://www.espn.com/espn/rss/soccer/news"
+                },
+                nba :{
+                    title: "nba",
+                    link: "https://www.espn.com/espn/rss/nba/news"
+                },
+                nfl :{
+                    title: "nfl",
+                    link: "https://www.espn.com/espn/rss/nfl/news"
+                },
+                rpm :{
+                    title: "rpm",
+                    link: "https://www.espn.com/espn/rss/rpm/news"
+                },
+                poker :{
+                    title: "poker",
+                    link: "https://www.espn.com/espn/rss/poker/master"
+                },
+
+            }
+
+          },
+          androidcentral: {
+
+            publisher: "android central",
+            content: {
+
+                home :{
+                    title: "home",
+                    link: "https://www.androidcentral.com/feed"
+                }
+              
+            }
+
+          },
+          pcworld: {
+
+            publisher: "pcworld",
+            content: {
+
+                home :{
+                    title: "home",
+                    link: "https://www.pcworld.com/index.rss"
+                }
+              
+            }
+
+          },
+          ign: {
+
+            publisher: "ign",
+            content: {
+
+                home :{
+                    title: "home",
+                    link: "https://in.ign.com/feed.xml"
+                }
+              
+            }
+
+          },
+           techradar: {
+
+            publisher: "techradar",
+            content: {
+
+                home :{
+                    title: "home",
+                    link: "https://www.techradar.com/in/rss"
+                },
+                worldoftech :{
+                    title: "world of tech",
+                    link: "https://www.techradar.com/in/rss/news/world-of-tech"
+                },
+                 computing :{
+                    title: "computing",
+                    link: "https://www.techradar.com/in/rss/news/computing"
+                },
+                digitalhome :{
+                    title: "digital home",
+                    link: "https://www.techradar.com/in/rss/news/digital-home"
+                },
+                 gaming :{
+                    title: "gaming",
+                    link: "https://www.techradar.com/in/rss/news/gaming"
+                },
+                audio :{
+                    title: "audio",
+                    link: "https://www.techradar.com/in/rss/news/audio"
+                },
+                internet :{
+                    title: "internet",
+                    link: "https://www.techradar.com/in/rss/news/internet"
+                },
+                 mobilecomputing :{
+                    title: "mobile computing",
+                    link: "https://www.techradar.com/in/rss/news/mobile-computing"
+                },
+                networking :{
+                    title: "networking",
+                    link: "https://www.techradar.com/in/rss/news/networking"
+                },
+                photographyvideocapture :{
+                    title: "photography-video-capture",
+                    link: "https://www.techradar.com/in/rss/news/photography-video-capture"
+                },
+                 portabledevices :{
+                    title: "portable devices",
+                    link: "https://www.techradar.com/in/rss/news/portable-devices"
+                },
+                software :{
+                    title: "software",
+                    link: "https://www.techradar.com/in/rss/news/software"
+                },
+                phoneandcommunications :{
+                    title: "phone and communications",
+                    link: "https://www.techradar.com/in/rss/news/phone-and-communications"
+                },
+                 television :{
+                    title: "television",
+                    link: "https://www.techradar.com/in/rss/news/television"
+                }
+
+              
+            }
+
+          },
           businessstandard: {
 
             publisher: "business standard",
@@ -212,6 +404,78 @@ export const channel = {
                 home:{
                     title: "home",
                     link: "https://www.business-standard.com/rss/home_page_top_stories.rss"
+                },
+
+                national : {
+                    title : "national",
+                    link: "https://www.thehindu.com/news/national/feeder/default.rss"
+                },
+                world : {
+                    title : "world",
+                    link: "https://www.business-standard.com/rss/international-116.rss"
+                },
+
+                opinion : {
+                    title : "opinion",
+                    link: "https://www.business-standard.com/rss/opinion-105.rss"
+                },
+                business : {
+                    title : "business",
+                    link: "https://www.thehindu.com/business/feeder/default.rss"
+                },
+                sport : {
+                    title : "sport",
+                    link: "https://www.business-standard.com/rss/sports-192.rss"
+                },
+                entertainment : {
+                    title : "entertainment",
+                    link: "https://www.business-standard.com/rss/entertainment-193.rss"
+                },
+
+                lifeandstyle: {
+                    title:"life and style",
+                    link: "https://www.business-standard.com/rss/lifestyle-195.rss"
+                },
+                technology: {
+                    title:"technology",
+                    link: "https://www.business-standard.com/rss/technology-108.rss"
+                },
+
+                finance: {
+                    title:"finance",
+                    link: "https://www.business-standard.com/rss/finance-103.rss"
+                },
+                economypolicy:{
+                    title:"economy policy",
+                    link: "https://www.business-standard.com/rss/economy-policy-102.rss"
+                },
+                currentaffairs:{
+                    title:"current affairs",
+                    link:"https://www.business-standard.com/rss/current-affairs-115.rss"
+                },
+                events:{
+                    title:"events",
+                    link:"https://www.business-standard.com/rss/events-175.rss"
+                },
+                electricvehicle:{
+                    title:"electric vehicle",
+                    link:"https://www.business-standard.com/rss/electric-vehicle-202.rss"
+                },
+                economicrevival:{
+                    title:"economic revival",
+                    link:"https://www.business-standard.com/rss/economic-revival-207.rss"
+                }
+            }
+
+          },
+           economist: {
+
+            publisher: "economist",
+            content: {
+
+                home:{
+                    title: "home",
+                    link: "https://www.economist.com/the-world-this-week/rss.xml"
                 },
 
                 national : {
@@ -385,4 +649,19 @@ export const channel = {
             }
 
           },
+           hollywoodreporter: {
+
+            publisher: "hollywood reporter",
+            content: {
+
+                home :{
+                    title: "home",
+                    link: "https://www.hollywoodreporter.com/feed"
+                }        
+                
+            }
+
+          },
+        
+
     }   
