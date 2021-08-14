@@ -89,14 +89,14 @@ body {
     display: flex;
     flex-wrap: nowrap;
     //  border-top: 1px solid #333;
-   padding-top: 1.5em;
+   padding-top: 1.3em;
     column-gap: 10px;
     font-size: 1em;
     overflow-x: scroll;
     .filtertag-on,
     .filtertag-off {
-      color: #888;
-      
+      color: #ccc;
+      text-transform: capitalize;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -109,7 +109,7 @@ white-space: nowrap;
       // background-color: #111;
       padding: 8px 15px;
 
-      border: 1px solid #222;
+      border: 1px solid #333;
       background-color: #111;
       border-radius: 50px;
 
@@ -130,7 +130,7 @@ white-space: nowrap;
 
   .feed {
     width: 70%;
-    padding-top: 1.5em;
+    padding-top: 1.3em;
     display: flex;
     flex-direction: column;
     row-gap: 15px;

@@ -25,7 +25,7 @@ export function buttons (){
 
 
 
-// sub category of channel
+// sub category/ filter of channel
 
 
 export function filter(channelname){
@@ -38,7 +38,7 @@ export function filter(channelname){
                 button.className = "filtertag-off";
                 button.dataset.network = channellist[cnam].publisher;
                 button.id = channellist[cnam].content[i].title;
-                let tag = document.createTextNode(channellist[cnam].content[i].title.toUpperCase());  
+                let tag = document.createTextNode(channellist[cnam].content[i].title);  
                 button.appendChild(tag);   
                 document.querySelector(".filter").appendChild(button);
          
@@ -117,6 +117,8 @@ let filt = subcat.replace(/ /g,"").toLowerCase();
 
                 
                 document.querySelector(".feed").appendChild(card);
+
+                document.querySelector("#home").className="filtertag-on";
              //   console.clear();
 
              
