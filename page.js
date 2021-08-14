@@ -22,8 +22,12 @@ document.addEventListener('DOMContentLoaded', () => {
             
             filter(page);
             tags();
+            
+
         }
     });
+
+    
 
 
     // on click channel filter button

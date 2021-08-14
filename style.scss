@@ -17,37 +17,13 @@ body {
   // top nav (logo)
 
   .nav {
-    padding: 5px 0;
+    padding: 10px 0;
     .logo {
       text-transform: uppercase;
-      font-size: 1.2em;
+      font-size: 1.4em;
       font-weight: 600;
       padding: 10px 0;
-
-      @keyframes rot {
-        from {
-          transform: rotate(0deg);
-        }
-        to {
-          transform: rotate(45deg);
-        }
-      }
-
-      #s1 {
-        width: 5px;
-        display: inline;
-        animation-name: rot;
-        animation-duration: 1s;
-        //animation-delay: 2s;
-        animation-iteration-count: infinite;
-      }
-
-      #designby {
-        font-weight: 500;
-        font-size: 0.6em;
-        text-transform: lowercase;
-        
-      }
+  
     }
   }
 
@@ -70,10 +46,11 @@ body {
     justify-content: flex-start;
     overflow-x: scroll;
     flex-wrap: nowrap;
+    column-gap: 10px;
 
     button {
       cursor: pointer;
-      margin: 0 5px;
+     
       padding: 0px;
       background-color: transparent;
       border: transparent;
@@ -81,8 +58,8 @@ body {
       font-family: "Montserrat", sans-serif;
 
       img {
-        width: 50px;
-        height: 50px;
+        width: 60px;
+        height:60px;
         border-radius: 10px;
       }
     }
@@ -142,18 +119,24 @@ body {
   .feed {
     width: 70%;
     margin-top: 1.5em;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
     .card {
-      margin-bottom: 2em;
-    }
+      
+    background-color:  #111;
+    padding: 20px;
+    border-radius: 10px;
     .cardstamp {
       color: #ddd;
       font-size: 0.8em;
     }
     .cardtitle {
-      font-size: 1.4em;
+      font-size: 1.2em;
       font-weight: 600;
       padding: 10px 0;
-      color: #ddd;
+      color: #eee;
+     // text-transform: uppercase;
     }
 
     .cardcontent {
@@ -169,10 +152,11 @@ body {
     }
   }
 }
+}
 
 @media screen and (max-width: 768px) {
   body {
-    margin: 0 20px;
+    margin: 0 15px;
     .feed {
       width: 100%;
     }

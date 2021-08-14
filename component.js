@@ -87,7 +87,7 @@ let filt = subcat.replace(/ /g,"").toLowerCase();
                 var cardstamp = document.createElement("div");
                 cardstamp.className = "cardstamp";
                 var str2 = " | ";
-                var str1 = publisher.toLocaleUpperCase();          
+                var str1 = channellist[publisher].publisher.toLocaleUpperCase();          
                 var str3 = data.items[t].pubDate;
                 var textnode = document.createTextNode(str1.concat(str2, str3));
                 cardstamp.appendChild(textnode);
@@ -119,6 +119,7 @@ let filt = subcat.replace(/ /g,"").toLowerCase();
                 document.querySelector(".feed").appendChild(card);
              //   console.clear();
 
+             
             }
         })
         
@@ -127,4 +128,6 @@ let filt = subcat.replace(/ /g,"").toLowerCase();
         .catch((error) => {
             document.querySelector(".feed").innerHTML = "Oops Something Went Wrong........ <br><br> [ Error :  " + error.message +" ]";
         })
+
+
 }

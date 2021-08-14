@@ -17,53 +17,14 @@ body {
 }
 
 body .nav {
-  padding: 5px 0;
+  padding: 10px 0;
 }
 
 body .nav .logo {
   text-transform: uppercase;
-  font-size: 1.2em;
+  font-size: 1.4em;
   font-weight: 600;
   padding: 10px 0;
-}
-
-@-webkit-keyframes rot {
-  from {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(45deg);
-            transform: rotate(45deg);
-  }
-}
-
-@keyframes rot {
-  from {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(45deg);
-            transform: rotate(45deg);
-  }
-}
-
-body .nav .logo #s1 {
-  width: 5px;
-  display: inline;
-  -webkit-animation-name: rot;
-          animation-name: rot;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-}
-
-body .nav .logo #designby {
-  font-weight: 500;
-  font-size: 0.6em;
-  text-transform: lowercase;
 }
 
 body .channels::-webkit-scrollbar,
@@ -89,11 +50,12 @@ body .channels {
   overflow-x: scroll;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
 }
 
 body .channels button {
   cursor: pointer;
-  margin: 0 5px;
   padding: 0px;
   background-color: transparent;
   border: transparent;
@@ -102,8 +64,8 @@ body .channels button {
 }
 
 body .channels button img {
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   border-radius: 10px;
 }
 
@@ -168,32 +130,42 @@ body .filter .filtertag-on:hover {
 body .feed {
   width: 70%;
   margin-top: 1.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 10px;
 }
 
 body .feed .card {
-  margin-bottom: 2em;
+  background-color: #111;
+  padding: 20px;
+  border-radius: 10px;
 }
 
-body .feed .cardstamp {
+body .feed .card .cardstamp {
   color: #ddd;
   font-size: 0.8em;
 }
 
-body .feed .cardtitle {
-  font-size: 1.4em;
+body .feed .card .cardtitle {
+  font-size: 1.2em;
   font-weight: 600;
   padding: 10px 0;
-  color: #ddd;
+  color: #eee;
 }
 
-body .feed .cardcontent {
+body .feed .card .cardcontent {
   font-size: 1em;
   font-weight: 500;
   color: #aaa;
   line-height: 1.6;
 }
 
-body .feed .cardcontent a {
+body .feed .card .cardcontent a {
   color: #eee;
   text-decoration: none;
   font-weight: 600;
@@ -201,7 +173,7 @@ body .feed .cardcontent a {
 
 @media screen and (max-width: 768px) {
   body {
-    margin: 0 20px;
+    margin: 0 15px;
   }
   body .feed {
     width: 100%;
