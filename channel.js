@@ -282,11 +282,8 @@ export const channel = {
                 rpm :{
                     title: "rpm",
                     link: "https://www.espn.com/espn/rss/rpm/news"
-                },
-                poker :{
-                    title: "poker",
-                    link: "https://www.espn.com/espn/rss/poker/master"
-                },
+                }
+               
 
             }
 
@@ -476,67 +473,9 @@ export const channel = {
                 home:{
                     title: "home",
                     link: "https://www.economist.com/the-world-this-week/rss.xml"
-                },
-
-                national : {
-                    title : "national",
-                    link: "https://www.thehindu.com/news/national/feeder/default.rss"
-                },
-                world : {
-                    title : "world",
-                    link: "https://www.business-standard.com/rss/international-116.rss"
-                },
-
-                opinion : {
-                    title : "opinion",
-                    link: "https://www.business-standard.com/rss/opinion-105.rss"
-                },
-                business : {
-                    title : "business",
-                    link: "https://www.thehindu.com/business/feeder/default.rss"
-                },
-                sport : {
-                    title : "sport",
-                    link: "https://www.business-standard.com/rss/sports-192.rss"
-                },
-                entertainment : {
-                    title : "entertainment",
-                    link: "https://www.business-standard.com/rss/entertainment-193.rss"
-                },
-
-                lifeandstyle: {
-                    title:"life and style",
-                    link: "https://www.business-standard.com/rss/lifestyle-195.rss"
-                },
-                technology: {
-                    title:"technology",
-                    link: "https://www.business-standard.com/rss/technology-108.rss"
-                },
-
-                finance: {
-                    title:"finance",
-                    link: "https://www.business-standard.com/rss/finance-103.rss"
-                },
-                economypolicy:{
-                    title:"economy policy",
-                    link: "https://www.business-standard.com/rss/economy-policy-102.rss"
-                },
-                currentaffairs:{
-                    title:"current affairs",
-                    link:"https://www.business-standard.com/rss/current-affairs-115.rss"
-                },
-                events:{
-                    title:"events",
-                    link:"https://www.business-standard.com/rss/events-175.rss"
-                },
-                electricvehicle:{
-                    title:"electric vehicle",
-                    link:"https://www.business-standard.com/rss/electric-vehicle-202.rss"
-                },
-                economicrevival:{
-                    title:"economic revival",
-                    link:"https://www.business-standard.com/rss/economic-revival-207.rss"
                 }
+
+                
             }
 
           },
