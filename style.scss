@@ -18,11 +18,20 @@ body {
 
   .nav {
     padding: 10px 0;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
     .logo {
       text-transform: uppercase;
       font-size: 1.4em;
       font-weight: 600;
       padding: 10px 0;
+
+      .beta{
+        font-size: 0.6em;
+       color: #aaa;
+       font-weight: 300;
+      }
   
     }
   }
@@ -98,7 +107,7 @@ body {
       font-weight: 600;
       // background-color: #111;
       padding: 8px 15px;
-
+ border: 1px solid #222;
       background-color: #111;
       border-radius: 50px;
       &:hover {
@@ -123,8 +132,8 @@ body {
     flex-direction: column;
     row-gap: 10px;
     .card {
-      
-    background-color:  #111;
+      border: 1px solid #222;
+     background-color:  #111;
     padding: 20px;
     border-radius: 10px;
     .cardstamp {
@@ -133,8 +142,9 @@ body {
     }
     .cardtitle {
       font-size: 1.2em;
-      font-weight: 600;
+      font-weight: 500;
       padding: 10px 0;
+      line-height: 1.6;
       color: #eee;
      // text-transform: uppercase;
     }
