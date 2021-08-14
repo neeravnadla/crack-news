@@ -89,7 +89,7 @@ body {
     display: flex;
     flex-wrap: nowrap;
     //  border-top: 1px solid #333;
-    margin-top: 10px;
+   padding-top: 1.5em;
     column-gap: 10px;
     font-size: 1em;
     overflow-x: scroll;
@@ -104,8 +104,8 @@ body {
       flex-wrap: nowrap;
 white-space: nowrap;
       cursor: pointer;
-      font-size: 0.8em;
-      font-weight: 600;
+      font-size: 1em;
+      font-weight: 500;
       // background-color: #111;
       padding: 8px 15px;
 
@@ -130,7 +130,7 @@ white-space: nowrap;
 
   .feed {
     width: 70%;
-    margin-top: 1.5em;
+    padding-top: 1.5em;
     display: flex;
     flex-direction: column;
     row-gap: 10px;
