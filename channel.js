@@ -139,6 +139,70 @@ export const channel = {
             }
 
           },
+          bbc: {
+
+            publisher: "bbc",
+            content: {
+
+                home :{
+                    title: "home",
+                    link: "http://feeds.bbci.co.uk/news/rss.xml"
+                },  
+                 world :{
+                    title: "world",
+                    link: "http://feeds.bbci.co.uk/news/world/rss.xml"
+                },
+            
+                 africa :{
+                    title: "africa",
+                    link: "http://feeds.bbci.co.uk/news/world/africa/rss.xml"
+                },  
+                asia :{
+                    title: "asia",
+                    link: "http://feeds.bbci.co.uk/news/world/asia/rss.xml"
+                } ,  
+                europe :{
+                    title: "europe",
+                    link: "http://feeds.bbci.co.uk/news/world/europe/rss.xml"
+                } ,  
+                middleeast :{
+                    title: "middle east",
+                    link: "http://feeds.bbci.co.uk/news/world/middle_east/rss.xml"
+                },
+               
+                business :{
+                    title: "business",
+                    link: "http://feeds.bbci.co.uk/news/business/rss.xml"
+                },  
+                politics :{
+                    title: "politics",
+                    link: "http://feeds.bbci.co.uk/news/politics/rss.xml"
+                },  
+                health :{
+                    title: "business",
+                    link: "http://feeds.bbci.co.uk/news/health/rss.xml"
+                },    
+                 education :{
+                    title: "education",
+                    link: "http://feeds.bbci.co.uk/news/education/rss.xml"
+                },  
+                scienceandenvironment :{
+                    title: "science and environment",
+                    link: "http://feeds.bbci.co.uk/news/science_and_environment/rss.xml"
+                } ,  
+                technology :{
+                    title: "technology",
+                    link: "http://feeds.bbci.co.uk/news/technology/rss.xml"
+                } ,  
+                entertainmentandarts :{
+                    title: "entertainment and arts",
+                    link: "http://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml"
+                }
+               
+                
+            }
+
+          },
            timesofindia: {
 
             publisher: "times of india",
@@ -217,6 +281,159 @@ export const channel = {
             }
 
           },
+           aajtak: {
+
+            publisher: "aajtak",
+            content: {
+
+                home :{
+                    title: "home",
+                    link: "https://www.aajtak.in/rssfeeds/?id=home"
+                }        
+                
+            }
+
+          },
+          bhaskar: {
+
+            publisher: "bhaskar",
+            content: {
+
+                home :{
+                    title: "home",
+                    link: "https://www.bhaskar.com/rss-v1--category-12084.xml"
+                },  
+                 rajasthan :{
+                    title: "Rajasthan",
+                    link: "https://www.bhaskar.com/rss-v1--category-1740.xml"
+                },
+                chandigarh :{
+                    title: "Chandigarh",
+                    link: "https://www.bhaskar.com/rss-v1--category-11649.xml"
+                },  
+                gujarat :{
+                    title: "Gujarat",
+                    link: "https://www.bhaskar.com/rss-v1--category-2314.xml"
+                },  
+                punjab :{
+                    title: "Punjab",
+                    link: "https://www.bhaskar.com/rss-v1--category-1743.xml"
+                },    
+                 jharkhand :{
+                    title: "Jharkhand",
+                    link: "https://www.bhaskar.com/rss-v1--category-3682.xml"
+                },  
+                maharashtra :{
+                    title: "Maharashtra",
+                    link: "https://www.bhaskar.com/rss-v1--category-2318.xml"
+                },  
+                delhincr :{
+                    title: "Delhi NCR",
+                    link: "https://www.bhaskar.com/rss-v1--category-7140.xml"
+                },  
+                haryana :{
+                    title: "Haryana",
+                    link: "https://www.bhaskar.com/rss-v1--category-1742.xml"
+                },  
+                bihar :{
+                    title: "Bihar",
+                    link: "https://www.bhaskar.com/rss-v1--category-3679.xml"
+                },  
+                uttarpradesh :{
+                    title: "Uttar Pradesh",
+                    link: "https://www.bhaskar.com/rss-v1--category-2052.xml"
+                },  
+                madhyapradesh :{
+                    title: "Madhya Pradesh",
+                    link: "https://www.bhaskar.com/rss-v1--category-1739.xml"
+                }  
+               
+                
+            }
+
+          },
+          bbchindi: {
+
+            publisher: "bbc hindi",
+            content: {
+
+                home :{
+                    title: "home",
+                    link: "http://www.bbc.co.uk/hindi/index.xml"
+                },  
+                 india :{
+                    title: "india",
+                    link: "http://www.bbc.co.uk/hindi/india/index.xml"
+                },
+                sport :{
+                    title: "sport",
+                    link: "http://www.bbc.co.uk/hindi/sport/index.xml"
+                },  
+                entertainment :{
+                    title: "entertainment",
+                    link: "http://www.bbc.co.uk/hindi/entertainment/index.xml"
+                },  
+                business :{
+                    title: "business",
+                    link: "http://www.bbc.co.uk/hindi/business/index.xml"
+                },    
+                 science :{
+                    title: "science",
+                    link: "http://www.bbc.co.uk/hindi/science/index.xml"
+                },  
+                indepth :{
+                    title: "indepth",
+                    link: "http://www.bbc.co.uk/hindi/indepth/index.xml"
+                } 
+               
+               
+                
+            }
+
+          },
+          patrika: {
+
+            publisher: "patrika",
+            content: {
+
+                home :{
+                    title: "home",
+                    link: "http://api.patrika.com/rss/topnews-channel2"
+                },  
+                 world :{
+                    title: "world",
+                    link: "http://api.patrika.com/rss/world-news"
+                },
+            
+                 sports :{
+                    title: "sports",
+                    link: "http://api.patrika.com/rss/sports-news"
+                },  
+                             
+                opinion :{
+                    title: "opinion",
+                    link: "http://api.patrika.com/rss/opinion"
+                },  
+                results :{
+                    title: "results",
+                    link: "http://api.patrika.com/rss/results"
+                },  
+                science :{
+                    title: "science",
+                    link: "http://api.patrika.com/rss/science-tech-news"
+                } ,  
+                technology :{
+                    title: "technology",
+                    link: "http://api.patrika.com/rss/latest-technology"
+                }  
+                
+               
+                
+            }
+
+          },
+
+          
           
           vox: {
 
