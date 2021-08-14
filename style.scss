@@ -96,20 +96,23 @@ body {
     .filtertag-on,
     .filtertag-off {
       color: #888;
+      
       display: flex;
       justify-content: center;
       align-items: center;
       text-align: center;
       flex-wrap: nowrap;
-
+white-space: nowrap;
       cursor: pointer;
       font-size: 0.8em;
       font-weight: 600;
       // background-color: #111;
       padding: 8px 15px;
- border: 1px solid #222;
+
+      border: 1px solid #222;
       background-color: #111;
       border-radius: 50px;
+
       &:hover {
         background-color: #222;
       }

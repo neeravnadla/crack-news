@@ -119,6 +119,7 @@ body .filter .filtertag-off {
   text-align: center;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
+  white-space: nowrap;
   cursor: pointer;
   font-size: 0.8em;
   font-weight: 600;
