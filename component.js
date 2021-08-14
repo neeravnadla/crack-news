@@ -43,6 +43,7 @@ export function filter(channelname){
                 document.querySelector(".filter").appendChild(button);
          
     }
+    document.querySelector("#home").className="filtertag-on";
                 
 }
 
@@ -118,7 +119,7 @@ let filt = subcat.replace(/ /g,"").toLowerCase();
                 
                 document.querySelector(".feed").appendChild(card);
 
-                document.querySelector("#home").className="filtertag-on";
+                
              //   console.clear();
 
              
