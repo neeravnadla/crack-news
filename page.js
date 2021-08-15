@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
             
             filter(page);
             tags();
-            
+                document.querySelector("#home").className="filtertag-on";
 
         }
     });

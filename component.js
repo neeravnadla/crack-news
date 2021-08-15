@@ -43,7 +43,7 @@ export function filter(channelname){
                 document.querySelector(".filter").appendChild(button);
          
     }
-    document.querySelector("#home").className="filtertag-on";
+
                 
 }
 

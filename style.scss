@@ -8,7 +8,7 @@
 body {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
-  margin: 0px 100px;
+  margin: 0px 200px;
 
   background-color: #000;
   color: #eee;
@@ -86,9 +86,10 @@ body {
   // filters
 
   .filter {
+     
     display: flex;
+    
     flex-wrap: nowrap;
-    //  border-top: 1px solid #333;
    padding-top: 1.3em;
     column-gap: 10px;
     font-size: 1em;
@@ -129,16 +130,18 @@ white-space: nowrap;
   // main feed and card
 
   .feed {
-    width: 70%;
+  
     padding-top: 1.3em;
     display: flex;
     flex-direction: column;
-    row-gap: 15px;
+    row-gap: 20px;
+    
     .card {
-      border: 1px solid #222;
-     background-color:  #111;
+      border: 1px solid #333;
+   // background-color:  #111;
     padding: 20px;
     border-radius: 10px;
+     
     .cardstamp {
       color: #ddd;
       font-size: 0.8em;
