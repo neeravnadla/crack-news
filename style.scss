@@ -22,6 +22,7 @@ body {
     align-items: flex-start;
     flex-wrap: nowrap;
     .logo {
+      cursor: pointer;
       text-transform: uppercase;
       font-size: 1.4em;
       font-weight: 600;
@@ -134,20 +135,21 @@ white-space: nowrap;
     padding-top: 1.3em;
     display: flex;
     flex-direction: column;
-    row-gap: 20px;
+    row-gap: 15px;
     
     .card {
-      border: 1px solid #333;
-   // background-color:  #111;
+    //  border: 1px solid #333;
+    background-color:  #111;
     padding: 20px;
     border-radius: 10px;
+    cursor: pointer;
      
     .cardstamp {
       color: #ddd;
       font-size: 0.8em;
     }
     .cardtitle {
-      font-size: 1.2em;
+      font-size: 1.4em;
       font-weight: 500;
       padding: 10px 0;
       line-height: 1.6;

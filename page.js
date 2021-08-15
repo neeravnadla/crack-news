@@ -7,10 +7,13 @@ import {buttons, filter, show} from  "./component.js";
 document.addEventListener('DOMContentLoaded', () => {
 
     // load channel buttons
+    document.querySelector(".logo").addEventListener("click", ()=>{
+          welcomepage();
+        
+
+    })
 
     buttons();
-  
- 
     // on click channel button
 
     document.querySelectorAll("button").forEach((button) => {
@@ -21,23 +24,23 @@ document.addEventListener('DOMContentLoaded', () => {
             show(page,"home");
             
             filter(page);
+            
+ cardclick();
             tags();
-                document.querySelector("#home").className="filtertag-on";
+            document.querySelector("#home").className="filtertag-on";
+         
 
         }
     });
 
-    
 
+   
 
-    // on click channel filter button
-
-    
-
+        // on click card button
 
 });
 
-
+  
 
 function tags (){
      document.querySelectorAll(".filtertag-off").forEach((tag) => {
@@ -51,3 +54,18 @@ function tags (){
         }
     });
 }
+
+
+function cardclick(){
+
+     document.querySelectorAll(".card").forEach((car)=>{
+        car.addEventListener("click", ()=> alert("hello"));
+    })
+};
+
+
+function welcomepage(){
+    document.querySelectorAll(".off").forEach((activebutton) =>{activebutton.className = "on";} ); 
+    document.querySelector(".filter").innerHTML="";
+    document.querySelector(".feed").innerHTML="";
+};

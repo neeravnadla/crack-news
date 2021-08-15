@@ -83,6 +83,7 @@ let filt = subcat.replace(/ /g,"").toLowerCase();
 
                 var card = document.createElement("div");
                 card.className = "card";
+                card.dataset.link= data.items[t].link;
 
                 //icon
                 var cardstamp = document.createElement("div");
