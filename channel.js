@@ -398,11 +398,20 @@ export const channel = {
 
                 home :{
                     title: "home",
-                    link: "http://api.patrika.com/rss/topnews-channel2"
+                    link: "http://api.patrika.com/rss/national-news"
                 },  
                  world :{
                     title: "world",
                     link: "http://api.patrika.com/rss/world-news"
+                },
+                jaipur :{
+                    title: "jaipur",
+                    link: "http://api.patrika.com/rss/jaipur-news"
+                },
+                
+                sawaimadhopur :{
+                    title: "sawai madhopur",
+                    link: "http://api.patrika.com/rss/sawai-madhopur-news"
                 },
             
                  sports :{

@@ -60,8 +60,6 @@ body {
 
     button {
       cursor: pointer;
-     
-      padding: 0px;
       background-color: transparent;
       border: transparent;
       text-transform: uppercase;
@@ -143,7 +141,7 @@ white-space: nowrap;
     padding: 20px;
     border-radius: 10px;
     cursor: pointer;
-     
+     //height: 100vh;
     .cardstamp {
       color: #ddd;
       font-size: 0.8em;
@@ -151,7 +149,7 @@ white-space: nowrap;
     .cardtitle {
       font-size: 1.4em;
       font-weight: 500;
-      padding: 10px 0;
+      padding: 5px 0;
       line-height: 1.6;
       color: #eee;
      // text-transform: uppercase;
@@ -170,6 +168,26 @@ white-space: nowrap;
     }
   }
 }
+
+.design{
+  
+ padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-wrap: nowrap;
+ .author>a{
+   font-weight: 600;
+   padding-left:5px ;
+   cursor: pointer;
+   color: #eee;
+        text-decoration: none;
+   &:hover{
+     color: rgb(253, 236, 0);
+   }
+ }
+}
+
 }
 
 @media screen and (max-width: 768px) {

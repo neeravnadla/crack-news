@@ -59,7 +59,7 @@ function strip(list) {
 }   
 
 
-
+// load feed
 
 export function show(pub,subcat) {   
 
@@ -83,7 +83,6 @@ let filt = subcat.replace(/ /g,"").toLowerCase();
 
                 var card = document.createElement("div");
                 card.className = "card";
-                card.dataset.link= data.items[t].link;
 
                 //icon
                 var cardstamp = document.createElement("div");
@@ -104,25 +103,27 @@ let filt = subcat.replace(/ /g,"").toLowerCase();
                 // content
                 var cardcontent = document.createElement("div");
                 cardcontent.className = "cardcontent";
-                var textnode = document.createTextNode(strip(data.items[t].content).slice(0, 500) +"...");
-             //   cardcontent.innerHTML = data.items[t].content.slice(0, 300) ;
+                var textnode = document.createTextNode(strip(data.items[t].content).slice(0, 500) +"... ");
                 var dlink = document.createElement("a");
                 dlink.href = data.items[t].link;
-                  dlink.target="_blank";  
-                dlink.innerHTML = "Read More";
+                dlink.target="_blank";  
+                dlink.innerHTML = " Read More";
                 
                 cardcontent.appendChild(textnode);
                 cardcontent.appendChild(dlink);
                 card.appendChild(cardcontent);
-
-
-
                 
                 document.querySelector(".feed").appendChild(card);
-
+               
                 
-             //   console.clear();
+                
+                //on card click
+                card.addEventListener("click", (card)=> {
+                  
+                    window.open(data.items[t].link, "_blank");
 
+                });
+          
              
             }
         })
