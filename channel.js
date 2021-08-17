@@ -203,6 +203,123 @@ export const channel = {
             }
 
           },
+           theguardian: {
+
+            publisher: "the guardian",
+            content: {
+
+                home :{
+                    title: "home",
+                    link: "https://www.theguardian.com/international/rss"
+                }, 
+                
+                world :{
+                    title: "middle east",
+                    link: "https://www.theguardian.com/world/rss"
+                }, 
+                 opinion :{
+                    title: "opinion",
+                    link: "https://www.theguardian.com/uk/commentisfree/rss"
+                },
+            
+                 sport :{
+                    title: "sport",
+                    link: "https://www.theguardian.com/uk/sport/rss"
+                },  
+               
+                business :{
+                    title: "business",
+                    link: "https://www.theguardian.com/uk/business/rss"
+                },  
+                environment :{
+                    title: "environment",
+                    link: "https://www.theguardian.com/uk/environment/rss"
+                },  
+                science :{
+                    title: "science",
+                    link: "https://www.theguardian.com/science/rss"
+                },    
+                 technology :{
+                    title: "technology",
+                    link: "https://www.theguardian.com/uk/technology/rss"
+                },
+               
+                culture :{
+                    title: "culture",
+                    link: "https://www.theguardian.com/uk/culture/rss"
+                } ,  
+                lifeandstyle :{
+                    title: "life and style",
+                    link: "https://www.theguardian.com/uk/lifeandstyle/rss"
+                }  
+                
+            }
+
+          },
+           cnn: {
+
+            publisher: "cnn",
+            content: {
+
+                home :{
+                    title: "home",
+                    link: "http://rss.cnn.com/rss/edition.rss"
+                },  
+                 world :{
+                    title: "world",
+                    link: "http://rss.cnn.com/rss/edition_world.rss"
+                },
+            
+                 africa :{
+                    title: "africa",
+                    link: "http://rss.cnn.com/rss/edition_africa.rss"
+                },  
+                asia :{
+                    title: "asia",
+                    link: "http://rss.cnn.com/rss/edition_asia.rss"
+                } ,  
+                europe :{
+                    title: "europe",
+                    link: "http://rss.cnn.com/rss/edition_europe.rss"
+                } ,  
+                middleeast :{
+                    title: "middle east",
+                    link: "http://rss.cnn.com/rss/edition_meast.rss"
+                },
+               
+                business :{
+                    title: "business",
+                    link: "http://rss.cnn.com/rss/money_news_international.rss"
+                },  
+                sport :{
+                    title: "sport",
+                    link: "http://rss.cnn.com/rss/edition_sport.rss"
+                },  
+                travel :{
+                    title: "travel",
+                    link: "http://rss.cnn.com/rss/edition_travel.rss"
+                },    
+                 education :{
+                    title: "education",
+                    link: "http://feeds.bbci.co.uk/news/education/rss.xml"
+                },  
+                scienceandspace :{
+                    title: "science and space",
+                    link: "http://rss.cnn.com/rss/edition_space.rss"
+                } ,  
+                technology :{
+                    title: "technology",
+                    link: "http://rss.cnn.com/rss/edition_technology.rss"
+                } ,  
+                entertainment :{
+                    title: "entertainment",
+                    link: "http://rss.cnn.com/rss/edition_entertainment.rss"
+                }
+               
+                
+            }
+
+          },
            timesofindia: {
 
             publisher: "times of india",
