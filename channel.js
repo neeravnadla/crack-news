@@ -940,6 +940,19 @@ export const channel = {
             }
 
           },
+           filmcompanion: {
+
+            publisher: "film companion",
+            content: {
+
+                home :{
+                    title: "home",
+                    link: "https://www.filmcompanion.in/feed/"
+                }        
+                
+            }
+
+          },
         
 
     }   
