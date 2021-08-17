@@ -953,6 +953,62 @@ export const channel = {
             }
 
           },
+         
+          
+          cointelegraph: {
+
+            publisher: "cointelegraph",
+            content: {
+
+                home :{
+                    title: "home",
+                    link: "https://cointelegraph.com/rss"
+                },
+                 editorspick :{
+                    title: "editors pick",
+                    link: "https://cointelegraph.com/editors_pick_rss"
+                },      
+                  altcoin :{
+                    title: "altcoin",
+                    link: "https://cointelegraph.com/rss/tag/altcoin"
+                },
+                 blockchain :{
+                    title: "blockchain",
+                    link: "https://cointelegraph.com/rss/tag/blockchain"
+                },            
+                analysis :{
+                    title: "analysis",
+                    link: "https://cointelegraph.com/rss/category/analysis"
+                },
+                 marketanalysis :{
+                    title: "market analysis",
+                    link: "https://cointelegraph.com/rss/category/market-analysis"
+                },  
+                 weeklyoverview :{
+                    title: "weekly overview",
+                    link: "https://cointelegraph.com/rss/category/weekly-overview"
+                },            
+                topcryptocurrencies :{
+                    title: "top cryptocurrencies",
+                    link: "https://cointelegraph.com/rss/category/top-10-cryptocurrencies"
+                }
+
+            }
+
+          },
+           freejobalert: {
+
+            publisher: "free job alert",
+            content: {
+
+                home :{
+                    title: "home",
+                    link: "https://www.freejobalert.com/feed/"
+                }        
+                
+            }
+
+          }
         
 
     }   
