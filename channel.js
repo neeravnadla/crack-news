@@ -214,7 +214,7 @@ export const channel = {
                 }, 
                 
                 world :{
-                    title: "middle east",
+                    title: "world",
                     link: "https://www.theguardian.com/world/rss"
                 }, 
                  opinion :{
@@ -298,11 +298,7 @@ export const channel = {
                 travel :{
                     title: "travel",
                     link: "http://rss.cnn.com/rss/edition_travel.rss"
-                },    
-                 education :{
-                    title: "education",
-                    link: "http://feeds.bbci.co.uk/news/education/rss.xml"
-                },  
+                }, 
                 scienceandspace :{
                     title: "science and space",
                     link: "http://rss.cnn.com/rss/edition_space.rss"
