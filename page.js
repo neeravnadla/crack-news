@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 
-                document.querySelector(".design").innerHTML = "🎨 design by<span class='author'><a href='http://neeravnadla.github.io/profile' target='_blank'>neeravnadla.</a>  <span>";
+                document.querySelector(".design").innerHTML = "🎨 design by<span class='author'><a href='https://twitter.com/neeravnadla' target='_blank'>neeravnadla.</a>  <span>";
 
         // on click card button
 
