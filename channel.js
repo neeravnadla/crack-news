@@ -995,7 +995,9 @@ export const channel = {
 
             }
 
-          },
+          }
+          /*
+          ,
            freejobalert: {
 
             publisher: "free job alert",
@@ -1009,6 +1011,6 @@ export const channel = {
             }
 
           }
-        
+        */
 
     }   
