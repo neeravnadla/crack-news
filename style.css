@@ -27,8 +27,8 @@ body .nav {
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
   background-color: #000;
-  -webkit-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   font-size: 1em;
 }
 
@@ -86,8 +86,8 @@ body .channels button img {
   width: 80px;
   height: 80px;
   border-radius: 10px;
-  -webkit-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 body .channels .off {
