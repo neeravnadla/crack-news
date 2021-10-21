@@ -66,6 +66,36 @@ function tags (){
 function welcomepage(){
     document.querySelectorAll(".off").forEach((activebutton) =>{activebutton.className = "on";} ); 
     document.querySelector(".filter").innerHTML="";
-    document.querySelector(".feed").innerHTML=" hi, welcome back";
+    document.querySelector(".feed").innerHTML=" hi, welcome back";
     
 };
+
+
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    document.querySelector(".herotop").style.position = "sticky";
+    
+    document.querySelector(".nav").style.fontSize = "0.7em";
+     document.querySelectorAll(".channels button img").forEach(element => {
+         element.style.width = "50px";
+          element.style.height = "50px";
+         
+
+     });
+     
+    document.querySelector(".herotop").style.top = 0;
+  } 
+  else{
+
+     document.querySelector(".nav").style.fontSize = "1em";
+     document.querySelectorAll(".channels button img").forEach(element => {
+         element.style.width = "80px";
+          element.style.height = "80px";
+         
+
+     });
+     
+}
+}
